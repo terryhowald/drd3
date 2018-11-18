@@ -4,9 +4,9 @@
 // Define namespace to hold constants
 namespace constants
 {
-    constexpr double pi(3.14159);
-    constexpr double avogadro(6.0221413e23);
-    constexpr double my_gravity(9.2); // m/s^2 -- gravity is light on this planet
+    constexpr int DISPLAY_WIDTH(800);
+    constexpr int DISPLAY_HEIGHT(640);
+    constexpr char TITLE[]("Die, Redshirt, Die!");
     // ... other related constants
     
 } // namespace constants
