@@ -2,7 +2,7 @@
 #include "constants.h"
 #include <SDL.h> 
 
-int main()
+int main(int argc, char* argv[])
 {
     // Initialize SDL2 library
     if (0 != SDL_Init(SDL_INIT_EVERYTHING))
